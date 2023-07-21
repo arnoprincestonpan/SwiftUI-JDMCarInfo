@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2B8EDED2A6A689300E3B720 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8EDEC2A6A689300E3B720 /* CardView.swift */; };
+		A2B8EDEF2A6A696900E3B720 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8EDEE2A6A696900E3B720 /* CustomBackgroundView.swift */; };
+		A2B8EDF22A6A6A5300E3B720 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8EDF12A6A6A5300E3B720 /* ColorExtension.swift */; };
 		A2D118642A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D118632A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift */; };
 		A2D118662A6949AC00D7C1C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D118652A6949AC00D7C1C9 /* ContentView.swift */; };
 		A2D118682A6949AD00D7C1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D118672A6949AD00D7C1C9 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2B8EDEC2A6A689300E3B720 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A2B8EDEE2A6A696900E3B720 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		A2B8EDF12A6A6A5300E3B720 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		A2D118602A6949AC00D7C1C9 /* SwiftUIJDMCarInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIJDMCarInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D118632A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIJDMCarInfoApp.swift; sourceTree = "<group>"; };
 		A2D118652A6949AC00D7C1C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2B8EDEA2A6A683500E3B720 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A2D118652A6949AC00D7C1C9 /* ContentView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A2B8EDEB2A6A688200E3B720 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8EDEC2A6A689300E3B720 /* CardView.swift */,
+				A2B8EDEE2A6A696900E3B720 /* CustomBackgroundView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A2B8EDF02A6A6A2500E3B720 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8EDF12A6A6A5300E3B720 /* ColorExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		A2D118572A6949AC00D7C1C9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +82,10 @@
 		A2D118622A6949AC00D7C1C9 /* SwiftUIJDMCarInfo */ = {
 			isa = PBXGroup;
 			children = (
+				A2B8EDF02A6A6A2500E3B720 /* Utility */,
+				A2B8EDEB2A6A688200E3B720 /* Components */,
+				A2B8EDEA2A6A683500E3B720 /* Screen */,
 				A2D118632A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift */,
-				A2D118652A6949AC00D7C1C9 /* ContentView.swift */,
 				A2D118672A6949AD00D7C1C9 /* Assets.xcassets */,
 				A2D118692A6949AD00D7C1C9 /* Preview Content */,
 			);
@@ -138,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D118662A6949AC00D7C1C9 /* ContentView.swift in Sources */,
+				A2B8EDED2A6A689300E3B720 /* CardView.swift in Sources */,
 				A2D118642A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift in Sources */,
+				A2B8EDEF2A6A696900E3B720 /* CustomBackgroundView.swift in Sources */,
+				A2B8EDF22A6A6A5300E3B720 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
