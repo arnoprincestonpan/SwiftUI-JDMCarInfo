@@ -29,25 +29,11 @@ struct CardView: View {
                             )
                             .shadow(radius: 4)
                     
-                        ZStack{
-                            Circle()
-                                .fill()
+                        Button {
                             
-                            Circle()
-                                .stroke(.yellow)
-                            
-                            Button {
-                                
-                            } label: {
-                                Image(systemName: "car.rear.road.lane")
-                                    .fontWeight(.black)
-                                    .font(.system(size: 32))
-                                    .foregroundStyle(
-                                        LinearGradient(colors: [.red, .yellow], startPoint: .top, endPoint: .bottom)
-                                    )
-                            }
-                        }//: ZSTACK
-                        .frame(width: 56, height: 56)
+                        } label: {
+                            CustomButtonView()
+                        }
                         
                     }
                 }
