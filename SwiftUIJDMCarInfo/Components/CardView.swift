@@ -8,6 +8,30 @@
 import SwiftUI
 
 struct CardView: View {
+    // MARK: - PROPERTIES
+    
+    @State private var imageNumber: Int = 1
+    @State private var randomNumber: Int = 1
+    @State private var isShowingSheet: Bool = false
+    
+    // MARK: - FUNCTIONS
+    
+    func randomImage() {
+        print("=== BUTTON PRESSED ===")
+        print("Status: Old Image Number: \(randomNumber)")
+        
+        repeat {
+            randomNumber = Int.random(in: 1...3)
+            print("Action: Random Number Generated: \(randomNumber)")
+        } while randomNumber == imageNumber
+        
+        imageNumber = randomNumber
+        
+        print("Result: New Image Number: \(imageNumber)")
+        print("=== END OF BUTTON ===")
+        print("\n")
+    }
+    
     var body: some View {
         // MARK: - CARD
         
@@ -41,7 +65,7 @@ struct CardView: View {
                 // MARK: - MAIN CONTENT
                 
                 ZStack{
-                    Image("image-1")
+                    Image("image-\(imageNumber)")
                         .resizable()
                         .scaledToFit()
                         .padding()
@@ -51,6 +75,8 @@ struct CardView: View {
                 
                 Button {
                     // Switch Car Image
+                    randomImage()
+                    
                 } label: {
                     Text("More Cars")
                         .font(.title2)
