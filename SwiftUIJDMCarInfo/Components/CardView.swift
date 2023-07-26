@@ -49,6 +49,17 @@ struct CardView: View {
                 
                 // MARK: - FOOTER
                 
+                Button {
+                    // Switch Car Image
+                } label: {
+                    Text("More Cars")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                            LinearGradient(colors: [.purple, .blue], startPoint: .top, endPoint: .bottom)
+                        )
+                }
+                .buttonStyle(GradientButton())
             }//: VSTACK
         }//: ZSTACK
     } //: CARD

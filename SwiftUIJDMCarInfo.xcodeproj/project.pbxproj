@@ -11,6 +11,7 @@
 		A2B8EDED2A6A689300E3B720 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8EDEC2A6A689300E3B720 /* CardView.swift */; };
 		A2B8EDEF2A6A696900E3B720 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8EDEE2A6A696900E3B720 /* CustomBackgroundView.swift */; };
 		A2B8EDF22A6A6A5300E3B720 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8EDF12A6A6A5300E3B720 /* ColorExtension.swift */; };
+		A2C07AF22A7132BB00B04B26 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C07AF12A7132BB00B04B26 /* GradientButtonStyle.swift */; };
 		A2D118642A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D118632A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift */; };
 		A2D118662A6949AC00D7C1C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D118652A6949AC00D7C1C9 /* ContentView.swift */; };
 		A2D118682A6949AD00D7C1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D118672A6949AD00D7C1C9 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		A2B8EDEC2A6A689300E3B720 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A2B8EDEE2A6A696900E3B720 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		A2B8EDF12A6A6A5300E3B720 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		A2C07AF12A7132BB00B04B26 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		A2D118602A6949AC00D7C1C9 /* SwiftUIJDMCarInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIJDMCarInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D118632A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIJDMCarInfoApp.swift; sourceTree = "<group>"; };
 		A2D118652A6949AC00D7C1C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				A2B8EDF12A6A6A5300E3B720 /* ColorExtension.swift */,
+				A2C07AF12A7132BB00B04B26 /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				A2B8EDED2A6A689300E3B720 /* CardView.swift in Sources */,
 				A2D118642A6949AC00D7C1C9 /* SwiftUIJDMCarInfoApp.swift in Sources */,
 				A2005D3D2A6FD2B800D71D36 /* CustomButtonView.swift in Sources */,
+				A2C07AF22A7132BB00B04B26 /* GradientButtonStyle.swift in Sources */,
 				A2B8EDEF2A6A696900E3B720 /* CustomBackgroundView.swift in Sources */,
 				A2B8EDF22A6A6A5300E3B720 /* ColorExtension.swift in Sources */,
 			);
